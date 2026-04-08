@@ -40,8 +40,26 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+-fork: Es una copia de una repositorio ajeno a tu cuenta de Github desde la web, esto no afecta la original
+-git clone: descarga un repositorio remoto a tu PC con todo el historial
+-git pull: descarga y fusiona cambios del remoto a tu copia local para actualizarte
 
+## Proceso seguido
+¿Cómo se realizó el fork?
+Se accedió al repositorio original del profesor en GitHub y se
+hizo clic en el botón Fork, seleccionando la cuenta ManuelCusme.
+
+¿Cómo se realizó el clone del fork?
+Se ejecutó: git clone https://github.com/ManuelCusme/EVALUACION_1P.git .Esto descargó el repositorio a la máquina local.
+
+¿Cómo se verificó que se trabajaba sobre el fork?
+Se ejecutó git remote -v, que mostró la URL apuntando a la cuenta ManuelCusme y no al repositorio del profesor, confirmando que se trabaja sobre el fork.
+
+## Evidencia
+![Fork del repositorio 1](images/Preg1.1.png)
+![Fork del repositorio 2](images/Preg1.2.png)
+![Clonacion](images/Preg1.3.png)
+![Verificacion remote](images/Preg1.4.png)
 ---
 
 ## Pregunta 2 (1 punto)
