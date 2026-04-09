@@ -199,6 +199,14 @@ revisen el código antes de integrarlo a la rama principal.
 Es una herramienta clave en flujos de trabajo colaborativos
 porque centraliza la discusión sobre los cambios propuestos.
 
+## 2. ¿Por qué es importante revisar un PR antes de fusionarlo?
+Revisar un PR antes de fusionarlo es importante porque permite
+detectar errores, bugs o problemas de seguridad antes de que
+lleguen a la rama principal. También asegura que el código
+cumpla con los estándares del proyecto y facilita el aprendizaje
+entre miembros del equipo al compartir conocimiento mediante
+los comentarios de revisión.
+
 ---
 
 ## Pregunta 5 (2 puntos)
