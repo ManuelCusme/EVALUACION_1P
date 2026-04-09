@@ -161,7 +161,7 @@ merge automático hacia develop y eliminó la rama feature.
 ## Evidencia
 ![Git Flow init y branch](images/Preg3.1.png)
 ![Feature branch creada](images/Preg3.2.png)
-![Feature finish](images/)
+![Feature finish](images/Preg3.3.png)
 
 ---
 
