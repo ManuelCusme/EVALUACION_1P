@@ -263,7 +263,43 @@ PR #1 - https://github.com/ManuelCusme/EVALUACION_1P/pull/1
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+## ¿Qué es un conflicto en Git y por qué ocurrió?
+Un conflicto en Git ocurre cuando dos ramas modifican el mismo
+archivo en el mismo lugar y Git no puede decidir automáticamente
+cuál versión conservar. En este caso ocurrió porque ramaA y ramaB
+crearon el mismo archivo archivoA.txt con contenido diferente,
+por lo que al intentar fusionarlas Git no supo cuál contenido
+mantener y requirió intervención manual.
+
+## Procedimiento completo
+
+### Creación de ramas
+- ramaA y ramaB se crearon desde develop con git checkout -b
+- En ramaA se creó archivoA.txt con "Contenido A"
+- En ramaB se creó archivoA.txt con "Contenido B"
+
+### Generación y resolución del conflicto
+- Desde ramaA se ejecutó git merge ramaB
+- Git detectó conflicto en archivoA.txt
+- Se editó el archivo manualmente combinando ambos contenidos
+- Se realizó git add y git commit para confirmar la resolución
+
+### Merge hacia develop
+- Se hizo checkout a develop
+- Se ejecutó git merge ramaA
+- El merge fue exitoso sin conflictos
+
+### Eliminación de ramas
+- Se eliminaron ramaA y ramaB al finalizar
+
+## Enlace al Pull Request
+PR #[número] - [link del PR]
+
+## Evidencia
+![Commit ramaA](images/Preg5.1.png)
+![Commit ramaB](images/Preg5.2.png)
+![Conflicto generado](images/Preg5.3.png)
+![Merge hacia develop](images/Preg5.5.png)
 
 ---
 
@@ -289,4 +325,23 @@ PR #1 - https://github.com/ManuelCusme/EVALUACION_1P/pull/1
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 6 -->
+📝 Respuesta:
+
+## Proceso realizado
+1. Se eliminó archivoA.txt desde la rama develop
+2. Se realizó merge de develop hacia main local
+3. Se enviaron los cambios y todos los tags al repositorio remoto
+4. Se creó el PR final desde develop del fork hacia main del repo original
+
+## Versionamiento Semántico
+El versionamiento semántico es un sistema para asignar versiones
+a software de forma significativa y predecible. Usa el formato:
+MAJOR.MINOR.PATCH (ejemplo: 2.1.3)
+
+### Sus tres componentes:
+- MAJOR: Se incrementa cuando hay cambios incompatibles con
+  versiones anteriores. Ejemplo: 1.0.0 → 2.0.0
+- MINOR: Se incrementa cuando se agregan funcionalidades nuevas
+  pero compatibles con la versión anterior. Ejemplo: 1.0.0 → 1.1.0
+- PATCH: Se incrementa cuando se realizan correcciones de errores
+  pequeños compatibles. Ejemplo: 1.0.0 → 1.0.1
