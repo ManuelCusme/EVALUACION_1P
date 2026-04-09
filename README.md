@@ -191,7 +191,13 @@ merge automático hacia develop y eliminó la rama feature.
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+## 1. ¿Qué es un Pull Request y cuál es su función?
+Un Pull Request (PR) es una solicitud para fusionar los cambios
+de una rama hacia otra dentro de un repositorio en GitHub.
+Su función principal es permitir que otros miembros del equipo
+revisen el código antes de integrarlo a la rama principal.
+Es una herramienta clave en flujos de trabajo colaborativos
+porque centraliza la discusión sobre los cambios propuestos.
 
 ---
 
