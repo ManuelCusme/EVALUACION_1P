@@ -81,7 +81,23 @@ Se ejecutó git remote -v, que mostró la URL apuntando a la cuenta ManuelCusme 
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+## ¿Qué es el archivo .gitignore?
+El archivo .gitignore le indica a Git qué archivos o carpetas debe ignorar y no rastrear. Es útil para excluir archivos temporales, logs, configuraciones locales o cualquier archivo que no deba subirse al repositorio.
+
+## Reglas configuradas
+- *.log → ignora todos los archivos con extensión .log
+- temp/ → ignora toda la carpeta temp/ y su contenido
+- doc/*.md → ignora archivos .md dentro de la carpeta doc/
+- doc/*.txt → ignora archivos .txt dentro de la carpeta doc/
+
+## Evidencia
+Los archivos dentro de doc/ y la carpeta temp/ no aparecen
+en git status, confirmando que están siendo ignorados.
+Los archivos prueba.md y prueba.txt en la raíz SÍ aparecen
+porque no están dentro de doc/.
+
+![Creación y configuracion del .gitignore](images/Preg2.1.png)
+![Verificación de que ignora](images/Preg2.2.png)
 
 ---
 
