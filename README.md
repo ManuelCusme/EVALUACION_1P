@@ -207,6 +207,31 @@ cumpla con los estándares del proyecto y facilita el aprendizaje
 entre miembros del equipo al compartir conocimiento mediante
 los comentarios de revisión.
 
+## 3. ¿Qué observaciones se realizan durante la revisión de un PR?
+Durante la revisión de un PR se suelen verificar:
+- Que el código funcione correctamente y no rompa funcionalidades existentes
+- Que siga las convenciones de estilo del proyecto
+- Que no existan vulnerabilidades de seguridad
+- Que los mensajes de commit sean claros y descriptivos
+- Que se incluyan pruebas si corresponde
+- Que la documentación esté actualizada
+
+## Resumen del procedimiento
+Se trabajó en la rama develop respondiendo cada pregunta con
+su respectivo commit y push. Se creó el PR desde develop hacia
+main con el título "Pregunta 4 - Cusme Manuel". Se simuló el
+proceso de revisión agregando comentarios solicitando cada
+respuesta y luego completándolas con commits adicionales.
+
+## Número y enlace al Pull Request
+PR #1 - https://github.com/ManuelCusme/EVALUACION_1P/pull/1
+
+## Evidencia
+![Push a develop](images/Preg4.1.png)
+![Pull Request creado](images/Preg4.2.png)
+![Comentario respuesta 2](images/Preg4.3.png)
+![Comentario respuesta 3](images/Preg4.4.png)
+
 ---
 
 ## Pregunta 5 (2 puntos)
