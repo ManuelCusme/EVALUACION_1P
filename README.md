@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
-### Carrera de [Nombre de la Carrera]  
+# Universidad Técnica de Ambato  
+## Facultad de Ingenieria en Sistemas, Electrónica e Industrial
+### Carrera de Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Cusme Vélez Manuel Steven  
+**Fecha:** 08/04/2027
 
 ---
 
