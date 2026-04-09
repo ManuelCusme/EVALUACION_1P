@@ -325,4 +325,23 @@ PR #[número] - [link del PR]
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 6 -->
+📝 Respuesta:
+
+## Proceso realizado
+1. Se eliminó archivoA.txt desde la rama develop
+2. Se realizó merge de develop hacia main local
+3. Se enviaron los cambios y todos los tags al repositorio remoto
+4. Se creó el PR final desde develop del fork hacia main del repo original
+
+## Versionamiento Semántico
+El versionamiento semántico es un sistema para asignar versiones
+a software de forma significativa y predecible. Usa el formato:
+MAJOR.MINOR.PATCH (ejemplo: 2.1.3)
+
+### Sus tres componentes:
+- MAJOR: Se incrementa cuando hay cambios incompatibles con
+  versiones anteriores. Ejemplo: 1.0.0 → 2.0.0
+- MINOR: Se incrementa cuando se agregan funcionalidades nuevas
+  pero compatibles con la versión anterior. Ejemplo: 1.0.0 → 1.1.0
+- PATCH: Se incrementa cuando se realizan correcciones de errores
+  pequeños compatibles. Ejemplo: 1.0.0 → 1.0.1
