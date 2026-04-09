@@ -127,7 +127,41 @@ porque no están dentro de doc/.
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+## Comandos utilizados
+
+1. git flow init
+   Inicializa Git Flow. Configura las ramas principales main y
+   develop, y los prefijos para features, releases y hotfixes.
+
+2. git flow feature start ingresar-encabezado
+   Crea la rama feature/ingresar-encabezado desde develop
+   y se posiciona en ella automáticamente.
+
+3. git add / git commit
+   Registra los cambios realizados dentro de la rama feature.
+
+4. git flow feature finish ingresar-encabezado
+   Fusiona feature/ingresar-encabezado hacia develop,
+   elimina la rama feature y regresa a develop.
+
+## Descripción del proceso
+Se inicializó Git Flow con main como rama de producción y
+develop como rama de desarrollo. Se creó la feature
+ingresar-encabezado donde se completaron los datos del
+encabezado del README. Al finalizar, Git Flow realizó el
+merge automático hacia develop y eliminó la rama feature.
+
+## Ventajas de Git Flow
+- Separa desarrollo (develop) de producción (main)
+- Permite trabajar en funcionalidades sin afectar código estable
+- Facilita el trabajo colaborativo con ramas bien definidas
+- El historial queda ordenado por funcionalidades
+- Ideal para proyectos con versiones y releases planificados
+
+## Evidencia
+![Git Flow init y branch](images/Preg3.1.png)
+![Feature branch creada](images/Preg3.2.png)
+![Feature finish](images/)
 
 ---
 
